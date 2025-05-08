@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Portfolio</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul style="list-style: none; padding: 0; margin: 0;">
+          <li style="display: inline; margin: 0 10px;"><a href="#home">Home</a></li>
+          <li style="display: inline; margin: 0 10px;"><a href="#about">About</a></li>
+          <li style="display: inline; margin: 0 10px;"><a href="#work">Work</a></li>
+          <li style="display: inline; margin: 0 10px;"><a href="#resume">Resume</a></li>
+          <li style="display: inline; margin: 0 10px;"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      
+  <!-- Home Section -->
+  <section id="home">
+    <div class="about-container">
+      <div class="image-card">
+        <img src="sample image.jpeg" alt="profile" />
+      </div>
+      <div class="about-content">
+        <h1>Welcome to My Portfolio</h1>
+        <p>
+          Hi, I'm Miriam, an aspiring web developer with a passion for building user-friendly and visually engaging websites.
+        </p>
+    
+      </div>
+    </div>
+  </section>
+
+    <div class="container">
+        <!-- Work Section -->
+    <h2 class="work">My Work</h2>
+    <ul>
+      <li>Tribute Page</li>
+      <li>Portfolio Website</li>
+      <li>Landing Page</li>
+    </ul>
+  
+  <!-- Resume Section -->
+  <section id="resume">
+    <h2>Resume</h2>
+    <table border="1" cellpadding="5">
+      <tr>
+        <th>Skill</th>
+        <th>Level</th>
+      </tr>
+      <tr>
+        <td>HTML</td>
+        <td>Intermediate</td>
+      </tr>
+      <tr>
+        <td>CSS</td>
+        <td>Beginner</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me : 011234567</h2>
+    <form action="#">
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name" required /><br /><br />
+
+      <label for="message">Message:</label><br />
+      <textarea id="message" name="message" rows="4" required></textarea><br /><br />
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+    </div>
+
+    <!-- Footer -->
+  <footer>
+    <p style="font-style: italic;">My Portfolio</p>
+  </footer>
+</body>
+</html>
